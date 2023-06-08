@@ -1,0 +1,235 @@
+body{ background-color: #F8F1F1;
+	text-align: center;
+	
+}
+
+
+
+h1 { color: #025464;
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+p{font-family: 'Poppins', sans-serif;
+justify-content: center;
+
+}
+
+a{text-decoration: none;
+}
+
+h2 { color: #E57C23 ;
+font-family:  }
+
+h3{ color: #025464; }
+
+h4{ color:#E57C23; }
+
+h5 { color: #F8F1F1 }
+
+h6{ text-align: left; }
+
+.btn-group {
+
+	color: #025464;
+}
+
+.btn-btn-primary{
+	color: #025464;
+}
+
+
+.text-infos{
+   
+     color: #025464
+
+}
+
+
+.my-navbar {
+	background-color: solid #025464
+}
+
+.my-navbar { padding: 20px;
+}
+
+
+.navbar {
+  background-color: #025464;
+  color: #E57C23;
+  padding: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+
+
+.photorond { 
+
+	object-fit: cover; 
+	border-radius: 480px;
+	padding: 00px;
+	box-shadow: 10px 10px 10px grey;
+	width: 250px;
+	height: 250px;
+
+ }
+
+.square1 { 
+	border-color: dashed #E57C23;
+	padding : 50px;
+}
+
+
+
+strong	{ font-family: 'Poppins'
+
+}
+
+--#{$prefix}accordion-color: #{$accordion-color};
+--#{$prefix}accordion-bg: #{$accordion-bg};
+--#{$prefix}accordion-transition: #{$accordion-transition};
+--#{$prefix}accordion-border-color: #{$accordion-border-color};
+--#{$prefix}accordion-border-width: #{$accordion-border-width};
+--#{$prefix}accordion-border-radius: #{$accordion-border-radius};
+--#{$prefix}accordion-inner-border-radius: #{$accordion-inner-border-radius};
+--#{$prefix}accordion-btn-padding-x: #{$accordion-button-padding-x};
+--#{$prefix}accordion-btn-padding-y: #{$accordion-button-padding-y};
+--#{$prefix}accordion-btn-color: #{$accordion-button-color};
+--#{$prefix}accordion-btn-bg: #{$accordion-button-bg};
+--#{$prefix}accordion-btn-icon: #{escape-svg($accordion-button-icon)};
+--#{$prefix}accordion-btn-icon-width: #{$accordion-icon-width};
+--#{$prefix}accordion-btn-icon-transform: #{$accordion-icon-transform};
+--#{$prefix}accordion-btn-icon-transition: #{$accordion-icon-transition};
+--#{$prefix}accordion-btn-active-icon: #{escape-svg($accordion-button-active-icon)};
+--#{$prefix}accordion-btn-focus-border-color: #{$accordion-button-focus-border-color};
+--#{$prefix}accordion-btn-focus-box-shadow: #{$accordion-button-focus-box-shadow};
+--#{$prefix}accordion-body-padding-x: #{$accordion-body-padding-x};
+--#{$prefix}accordion-body-padding-y: #{$accordion-body-padding-y};
+--#{$prefix}accordion-active-color: #{$accordion-button-active-color};
+--#{$prefix}accordion-active-bg: #{$accordion-button-active-bg};
+
+
+
+
+.square4 { background: white;
+	 border: solid 5px #025464;
+	 padding: 20px;
+	border-radius: 25px;
+	justify-content: space-around;
+	margin: 30px;
+	width: 500px;
+	height: 300px;
+
+
+}
+
+.listes{ 
+	border: 5px solid #E57C23;
+	background-color: #F8F1F1
+
+
+}
+
+.video{ display: flex;
+	padding: 20px;
+	background: #025464;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+
+.footer{ display: flex;
+	background: #025464;
+
+}
+
+
+.icons{ display: flex;
+	justify-content: center;
+	align-content: baseline ;
+	background:  #E57C23; 
+	padding-top: 20px;
+	padding-bottom: -5px;
+
+}
+
+.icon{
+	text-decoration: bold ;
+	padding: 10px;
+}
+
+
+
+.liste{ display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 5px;
+padding: 10px;
+
+}
+
+
+.lesavis{ background: #E8AA42;
+	border-radius: 20px;
+	padding: 30px;
+	border : dashed #E57C23;
+
+}
+
+.form-label { font-family: 'Poppins'
+
+}
+
+.publieravis { text-decoration: bold;
+
+}
+
+.footer { 
+ 	padding: 5px;
+	border-radius: 15px;
+	border : solid #E57C23;
+	justify-content: space-around;
+
+
+}
+
+
+.rubriquesfooter { display: flex;
+  justify-content: space-between;
+  align-items: center;
+	color: #F8F1F1;
+	padding: 20px;
+	text-align: center;
+
+}
+
+.nouscontacter { 
+  justify-content: space-between;
+  align-items: center;
+	padding: 20px;
+	text-align: center;
+
+}
+
+.Page-navigation-example{
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.pagination {
+	display: flex;
+	justify-content: center;
+}
+

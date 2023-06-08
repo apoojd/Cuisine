@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recettes de cuisine</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="around-the-kitchen.css">
+
+</head>
+<body>
+
+ <div class="navbar">
+    <a href="accueil.html">Accueil</a>
+    <a href="">Suggestions</a>
+    <a href="cuisine.html">Recettes</a>
+    <a href="">Contact</a>
+  </div>
+
+  <h1> <i>Around's the kitchen</i> </h1>
+
+<hr>
+
+<div class="rubriques">
+  
+  <div class="links">
+    <button type="button" class="btn btn-outline-warning">Europe</button>
+    <button type="button" class="btn btn-outline-warning">Afrique</button>
+    <button type="button" class="btn btn-outline-warning">Asie</button>
+    <button type="button" class="btn btn-outline-warning">Amérique</button>
+    <button type="button" class="btn btn-outline-warning">Océanie</button>
+    <button type="button" class="btn btn-outline-warning">Antarctique</button>
+</div>
+
+<p>Bienvenue sur le site qui vous propose les meilleurs recettes du monde entier !</p>
+
+ <hr>
+
+<h6>LES SUGGESTIONS DE LA SEMAINE</h6>
+
+    <div class="suggestionentière">
+        <div class="recette">
+          <a href="cuisine.html"></a>
+            <img src="https://images.pexels.com/photos/1527603/pexels-photo-1527603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="POULET">
+            <h3>Poulet Teriyaki</h3>
+
+        </div>
+
+        <div class="recette">
+            <img src="https://images.pexels.com/photos/2027696/pexels-photo-2027696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="CREMEDESSERT">
+            <h3>Crème à la framboise et citron</h3>
+        </div>
+
+        <div class="recette">
+            <img src="https://images.pexels.com/photos/1833333/pexels-photo-1833333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Tagliatelles">
+            <h3>Tagliatelles de courgettes et chèvre</h3>
+        </div>
+
+
+        <div class="recette">
+            <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="POKE">
+            <h3>Poké fraîcheur</h3>
+        </div>
+
+        <div class="recette">
+            <img src="https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="GATEAUCHOCOLAT">
+            <h3>Gâteau chocolat framboise</h3>
+        </div>
+
+        <div class="recette">
+            <img src="https://images.pexels.com/photos/3026803/pexels-photo-3026803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="CAROTTECAKE">
+            <h3>CarotCake aux amandes</h3>
+        </div>
+  
+
+  <br>
+
+  <form action="traitement.php" method="POST">
+    <div class="form-group">
+      <label for="nom">Nom</label>
+      <input type="text" id="nom" name="nom" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="message">Votre avis</label>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+    
+    <div class="form-group">
+      <input type="submit" value="Envoyer">
+    </div>
+  </form>
+
+<nav aria-label="Page navigation">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="#">Précédent</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Suivant</a></li>
+  </ul>
+</nav>
+
+
+
+    </div>
+</body>
+</html>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</body>
+</html>
